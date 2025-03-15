@@ -9,7 +9,8 @@
         <include domain="sharedpref" path="settings.xml"/>
 
         <!-- Exclure une base de données spécifique -->
-        <exclude domain="database" path="user_data.db" />
+        <exclude domain="database" path="user_data.db"
+            tools:ignore="FullBackupContent" />
     </cloud-backup>
     <!--
     <device-transfer>
